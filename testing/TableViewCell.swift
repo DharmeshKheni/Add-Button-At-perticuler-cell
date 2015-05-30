@@ -12,6 +12,8 @@ class TableViewCell: UITableViewCell {
 
 
     @IBOutlet weak var lbl: UILabel!
+    @IBOutlet weak var btn: UIButton!
+    @IBOutlet weak var tmpView: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
