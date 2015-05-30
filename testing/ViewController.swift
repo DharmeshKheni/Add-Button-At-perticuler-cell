@@ -10,22 +10,11 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var tableView: UITableView  =   UITableView()
+    @IBOutlet weak var tableView: UITableView!
     var items = ["1","2","3","4","5","6"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.frame         = CGRectMake(0, 50, self.view.frame.width,self.view.frame.height);
-        tableView.delegate      = self
-        tableView.dataSource  =  self
-        tableView.estimatedRowHeight = 30
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        
-        self.view.addSubview(tableView)
-        
-        
-        
-        
         
     }
     
@@ -37,7 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         
-        var cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
+        var cell:TableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell") as! TableViewCell
         
         // here is the redbutton
         
@@ -51,8 +40,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //label text just added from an array
         
-        cell.textLabel?.textAlignment = NSTextAlignment.Center
-        cell.textLabel?.text = items[indexPath.row]
+//        cell.textLabel?.textAlignment = NSTextAlignment.Centers
+        cell.lbl.text = items[indexPath.row]
         
         return cell
         

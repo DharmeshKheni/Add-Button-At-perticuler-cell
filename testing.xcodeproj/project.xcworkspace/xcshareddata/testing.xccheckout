@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD34CA9F-F940-43CE-85EC-3E976DDB5345</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C81F65E532695A4CAB179202EEDCA8FF56B5D03E</key>
+		<string>https://github.com/DharmeshKheni/Add-Button-At-perticuler-cell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testing.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C81F65E532695A4CAB179202EEDCA8FF56B5D03E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DharmeshKheni/Add-Button-At-perticuler-cell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C81F65E532695A4CAB179202EEDCA8FF56B5D03E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C81F65E532695A4CAB179202EEDCA8FF56B5D03E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Add-Button-At-perticuler-cell</string>
+		</dict>
+	</array>
+</dict>
+</plist>
